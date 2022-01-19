@@ -1,0 +1,374 @@
+/*============================== google font link ==============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500&display=swap');
+
+/*============================== common css ==============================*/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a,
+p,
+em,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Mystic-Red-color);
+}
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --Mystic-Red-color: #FF5600;
+    --Persimmon-color: #E74D00;
+}
+
+
+/*============================== hero area ==============================*/
+
+.inner-hero {
+    background: url(../image/h1_hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 350px 0px 250px 0px;
+}
+
+.hero-content h1 {
+    color: var(--black-color);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 87px;
+    font-weight: 700;
+    padding: 20px 0px 20px 0px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+
+/*============================== About area ==============================*/
+
+#About {
+    padding: 50px 0px 50px 0px;
+}
+
+.about-content h1 {
+    font-size: 49px;
+    color: var(--black-color);
+}
+
+.about-content p {
+    font-size: 18px;
+    color: var(--black-color);
+}
+
+.about-items p {
+    font-size: 16px;
+}
+
+.about-items i {
+    font-size: 45px;
+    color: var(--Mystic-Red-color);
+    padding: 0px 25px 47px 0px;
+}
+
+
+/*============================== our menu ==============================*/
+
+#menu {
+    background: url(../image/section_bg01.png);
+    padding: 80px 0px 80px 0px;
+}
+
+.menu-header-content h1 {
+    font-size: 49px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+/*============================== filter menu ==============================*/
+
+.portfolio-controllers.wow.fadeLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more.more-work.more-container.text-center {
+    padding-bottom: 60px;
+}
+
+
+/*============================== About area two ==============================*/
+
+img.about-two-image {
+    width: 100%;
+    padding: 35px;
+}
+
+.about-two-content {
+    padding-top: 145px;
+}
+
+.about-two-content p {
+    font-size: 16px;
+    color: #212025;
+    line-height: 1.8rem;
+}
+
+.about-two-content h1 {
+    font-size: 49px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.about-two-content button {
+    color: #464d65;
+}
+
+.about-button a {
+    display: block;
+    width: 172px;
+    height: 55px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--black-color);
+    border: 1px solid #FF5600;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.about-button a button {
+    position: relative;
+    z-index: 2;
+}
+
+.about-button a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+}
+
+.about-button a:hover:after {
+    width: 100%;
+}
+
+button.btn.shadow-none {
+    margin-top: 8px;
+}
+
+.about-button button:hover {
+    color: var(--white-color);
+}
+
+
+/*============================== our Services ==============================*/
+
+.inner-services {
+    padding: 80px 0px;
+}
+
+.services-box i {
+    font-size: 45px;
+    padding: 27px;
+    color: var(--Mystic-Red-color);
+}
+
+.services-box p {
+    font-size: 16px;
+    line-height: 1.8rem;
+    padding: 20px 0px 20px 0px;
+}
+
+.services-box {
+    padding: 30px 0px;
+    transition: 0.5s;
+}
+
+.services-box:hover {
+    box-shadow: 0px 0px 20px 3px #ddd;
+}
+
+.sbox-active {
+    box-shadow: 0px 0px 20px 3px #ddd;
+}
+
+
+/*============================== About area three ==============================*/
+
+#About-three {
+    background: url(../image/section_bg03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0px 120px 0px;
+}
+
+.About-three-content h1 {
+    font-size: 49px;
+    font-weight: 500;
+}
+
+.About-three-content p {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+input#exampleInputEmail1 {
+    padding: 14px 0px 14px 21px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+}
+
+#button {
+    padding: 15px 33px;
+    margin-left: -24px;
+    background: var(--Mystic-Red-color);
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0;
+}
+
+
+/*============================== Blog area ==============================*/
+
+.blog-content {
+    width: 90%;
+    background: #f7f9f8;
+    padding: 20px 10px;
+    border-radius: 10px;
+    transform: translate(12%, -50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.blog-content h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-content span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog-box:hover .blog-content {
+    background: var(--Mystic-Red-color);
+    color: var(--white-color);
+}
+
+
+/*============================== footer area ==============================*/
+
+#footer {
+    background: url(../image/section_bg02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px 0px 0px;
+}
+
+.footer-content ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.instagram-img {
+    width: 100%;
+}
+
+.copyright-message {
+    background: #000;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+
+
+/*============================== About Page hero area ==============================*/
+
+#about-header {
+    background: url(../image/about-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-about-header {
+    padding: 220px 0px;
+}
+
+
+/*============================== Contact Page Contact area ==============================*/
+
+textarea#exampleFormControlTextarea1 {
+    border-radius: 0px;
+    padding: 32px 20px;
+}
+
+input#exampleFormControlInput1,
+input#formGroupExampleInput,
+input#validationCustom01 {
+    border-radius: 0px;
+    padding: 16px 20px;
+    margin-top: 10px;
+}
+
+button.btn.btn-outline-info.py-2.px-4 {
+    font-size: 18px;
+    border-radius: 0;
+}
+
+button.btn.btn-outline-info.py-2.px-4:hover {
+    color: #fff;
+}
+
+.contact-info i {
+    font-size: 23px;
+    color: var(--Mystic-Red-color);
+}
+
+.contact-info p {
+    margin-top: -10px;
+    line-height: 2.3rem;
+}
